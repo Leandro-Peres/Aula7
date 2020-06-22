@@ -14,8 +14,7 @@ public class Gerente extends CaseFuncionarios {
 		return usuario;
 	}
 	
-	
-	
+		
 	public void setSenha(String senha1) {
 		this.senha=senha1;
 	}
@@ -24,5 +23,7 @@ public class Gerente extends CaseFuncionarios {
 		return senha;
 	}
 	
-	
+	public double calculaBonificacao () {
+		return getSalario() * 0.1+100; //override
+	}
 }

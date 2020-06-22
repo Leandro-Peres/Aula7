@@ -31,6 +31,9 @@ public class CaseFuncionarios {
 		return salario;
 	}
   
+	public double calculaBonificacao() {
+		return this.salario * 0.1;
+	}
 	
 	
 	
